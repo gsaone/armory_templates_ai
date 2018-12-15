@@ -1,9 +1,12 @@
-﻿# armory_templates_ai
+﻿![Police AI for Armory 3D](https://drive.google.com/uc?id=1YO3fEc_1NIGO5YRoSphDMvVW6_fAFpZw)
+
+# armory_templates_ai
 
 The project with templates of artificial intelligence for the engine [Armory3D](https://armory3d.org)
 
 #### Current realise:
 - Police AI — algorithm the autonomous vehicle steering
+- Vedeo: [https://youtu.be/UydHXuwRSXg](https://youtu.be/UydHXuwRSXg)
 
 #### In the plans:
 - Racer AI — algorithm for the racing game, steering with use path (curve)

@@ -1,0 +1,11 @@
+{
+	"configurations": [
+		{
+			"type": "krom",
+			"request": "launch",
+			"name": "Kha: Krom",
+			"preLaunchTask": "Kha: Build for Krom"
+		}
+	],
+	"compounds": []
+}

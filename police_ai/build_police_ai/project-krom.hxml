@@ -1,0 +1,63 @@
+-cp C:\Games\Armory_05_win64_b27\Armory\armsdk\Kha\Sources
+-cp C:\Games\Armory_05_win64_b27\Armory\armsdk\Kha\Backends\Krom
+-cp C:\Games\armory_templates_ai\police_ai\Sources
+-cp C:\Games\Armory_05_win64_b27\Armory\armsdk\armory\Sources
+-cp C:\Games\Armory_05_win64_b27\Armory\armsdk\iron\Sources
+-cp C:\Games\Armory_05_win64_b27\Armory\armsdk\lib\haxebullet\Sources
+-cp C:/Games/Armory_05_win64_b27/Armory/armsdk/armory
+-cp C:/Games/Armory_05_win64_b27/Armory/armsdk/iron
+-cp C:/Games/Armory_05_win64_b27/Armory/armsdk/lib/haxebullet
+-D C:/Games/Armory_05_win64_b27/Armory/armsdk/armory
+-D C:/Games/Armory_05_win64_b27/Armory/armsdk/iron
+-D C:/Games/Armory_05_win64_b27/Armory/armsdk/lib/haxebullet
+-D arm_hosek
+-D arm_no_shadows
+-D rp_renderer=Forward
+-D rp_background=World
+-D rp_gi=Off
+-D rp_ssgi=Off
+-D rp_gbuffer2
+-D rp_gbuffer2_direct
+-D arm_physics
+-D arm_bullet
+-D arm_published
+-D arm_data_dir
+-D arm_soundcompress
+-D arm_skin
+-D arm_particles_gpu
+-D arm_particles
+-D arm_config
+-D arm_loadscreen
+-D arm_fast
+-D js-classic
+-D sys_krom
+-D sys_g1
+-D sys_g2
+-D sys_g3
+-D sys_g4
+-D sys_a1
+-D sys_a2
+-D kha_js
+-D kha_krom
+-D kha_krom_js
+-D kha_direct3d11
+-D kha_g1
+-D kha_g2
+-D kha_g3
+-D kha_g4
+-D kha_a1
+-D kha_a2
+-D kha
+-D kha_version=1807
+-js krom\krom.js.temp
+-dce full
+armory.trait.physics.bullet.RigidBody
+--macro keep('armory.trait.physics.bullet.RigidBody')
+arm.PoliceAI
+--macro keep('arm.PoliceAI')
+arm.Player
+--macro keep('arm.Player')
+armory.trait.physics.bullet.PhysicsWorld
+--macro keep('armory.trait.physics.bullet.PhysicsWorld')
+-debug
+-main Main

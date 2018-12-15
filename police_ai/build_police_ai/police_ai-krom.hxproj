@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project version="2">
+	<!-- Output SWF options -->
+	<output>
+		<movie outputType="Application" />
+		<movie input="" />
+		<movie path="krom\krom.js.temp" />
+		<movie fps="30" />
+		<movie width="800" />
+		<movie height="600" />
+		<movie version="16" />
+		<movie minorVersion="0" />
+		<movie platform="JavaScript" />
+		<movie background="#ffffff" />
+		<movie preferredSDK="..\..\..\Armory_05_win64_b27\Armory\armsdk\Kha\Tools\haxe" />
+	</output>
+	<!-- Other classes to be compiled into your SWF -->
+	<classpaths>
+		<class path="..\..\..\Armory_05_win64_b27\Armory\armsdk\Kha\Sources" />
+		<class path="..\..\..\Armory_05_win64_b27\Armory\armsdk\Kha\Backends\Krom" />
+		<class path="..\Sources" />
+		<class path="..\..\..\Armory_05_win64_b27\Armory\armsdk\armory\Sources" />
+		<class path="..\..\..\Armory_05_win64_b27\Armory\armsdk\iron\Sources" />
+		<class path="..\..\..\Armory_05_win64_b27\Armory\armsdk\lib\haxebullet\Sources" />
+		<class path="..\..\..\Armory_05_win64_b27\Armory\armsdk\armory" />
+		<class path="..\..\..\Armory_05_win64_b27\Armory\armsdk\iron" />
+		<class path="..\..\..\Armory_05_win64_b27\Armory\armsdk\lib\haxebullet" />
+	</classpaths>
+	<!-- Build options -->
+	<build>
+		<option directives="" />
+		<option flashStrict="False" />
+		<option noInlineOnDebug="False" />
+		<option mainClass="Main" />
+		<option enabledebug="False" />
+		<option additional="-D C:/Games/Armory_05_win64_b27/Armory/armsdk/armory&#xA;-D C:/Games/Armory_05_win64_b27/Armory/armsdk/iron&#xA;-D C:/Games/Armory_05_win64_b27/Armory/armsdk/lib/haxebullet&#xA;-D arm_hosek&#xA;-D arm_no_shadows&#xA;-D rp_renderer=Forward&#xA;-D rp_background=World&#xA;-D rp_gi=Off&#xA;-D rp_ssgi=Off&#xA;-D rp_gbuffer2&#xA;-D rp_gbuffer2_direct&#xA;-D arm_physics&#xA;-D arm_bullet&#xA;-D arm_published&#xA;-D arm_data_dir&#xA;-D arm_soundcompress&#xA;-D arm_skin&#xA;-D arm_particles_gpu&#xA;-D arm_particles&#xA;-D arm_config&#xA;-D arm_loadscreen&#xA;-D arm_fast&#xA;-D js-classic&#xA;-D sys_krom&#xA;-D sys_g1&#xA;-D sys_g2&#xA;-D sys_g3&#xA;-D sys_g4&#xA;-D sys_a1&#xA;-D sys_a2&#xA;-D kha_js&#xA;-D kha_krom&#xA;-D kha_krom_js&#xA;-D kha_direct3d11&#xA;-D kha_g1&#xA;-D kha_g2&#xA;-D kha_g3&#xA;-D kha_g4&#xA;-D kha_a1&#xA;-D kha_a2&#xA;-D kha&#xA;-D kha_version=1807&#xA;-D kha_output=&quot;C:\Games\armory_templates_ai\police_ai\build_police_ai\krom\krom.js.temp&quot;&#xA;-dce full&#xA;armory.trait.physics.bullet.RigidBody&#xA;--macro keep('armory.trait.physics.bullet.RigidBody')&#xA;arm.PoliceAI&#xA;--macro keep('arm.PoliceAI')&#xA;arm.Player&#xA;--macro keep('arm.Player')&#xA;armory.trait.physics.bullet.PhysicsWorld&#xA;--macro keep('armory.trait.physics.bullet.PhysicsWorld')&#xA;-debug&#xA;" />
+	</build>
+	<!-- haxelib libraries -->
+	<haxelib>
+		<!-- example: <library name="..." /> -->
+	</haxelib>
+	<!-- Class files to compile (other referenced classes will automatically be included) -->
+	<compileTargets>
+		<compile path="..\Sources\Main.hx" />
+	</compileTargets>
+	<!-- Paths to exclude from the Project Explorer tree -->
+	<hiddenPaths>
+		<!-- example: <hidden path="..." /> -->
+	</hiddenPaths>
+	<!-- Executed before build -->
+	<preBuildCommand />
+	<!-- Executed after build -->
+	<postBuildCommand alwaysRun="False" />
+	<!-- Other project options -->
+	<options>
+		<option showHiddenPaths="False" />
+		<option testMovie="Custom" />
+		<option testMovieCommand="run_krom.bat" />
+	</options>
+	<!-- Plugin storage -->
+	<storage />
+</project>

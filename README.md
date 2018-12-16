@@ -4,9 +4,9 @@
 
 The project with templates of artificial intelligence for the engine [Armory3D](https://armory3d.org)
 
-#### Current realise:
+#### Current release:
 - Police AI — algorithm the autonomous vehicle steering
-- Video: [https://youtu.be/UydHXuwRSXg](https://youtu.be/UydHXuwRSXg)
+Video: [https://youtu.be/UydHXuwRSXg](https://youtu.be/UydHXuwRSXg)
 
 #### In the plans:
 - Racer AI — algorithm for the racing game, steering with use path (curve)
